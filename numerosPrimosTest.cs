@@ -9,7 +9,7 @@ namespace numerosPrimosTest{
         public void NumeroPrimo()
         {
             //Arrange
-            var resultado = 0;
+            var resultado = 1;
             var Verificacion = new VerificarPrimos();
             //Act
             var retorna = Verificacion.EsPrimo(resultado);
